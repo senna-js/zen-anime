@@ -12,7 +12,7 @@ function Footer() {
         <img
           src="https://wsrv.nl/?url=https://cdn.statically.io/gh/senna-js/zen-anime/main/public/logo.png"
           alt={logoTitle}
-          className="w-[200px] h-[100px]"
+          className="w-[200px] h-[50px]"
         />
       </div>
       <div className="flex py-5 flex-col w-full space-y-4 max-md:items-center max-[500px]:bg-[#373646]">
