@@ -5,6 +5,9 @@ import { Link } from "react-router-dom";
 function Footer() {
   return (
     <footer className="flex flex-col w-full mt-[100px] px-4 max-[500px]:px-0">
+    <div id="totop" className="active">
+    <i className="fas fa-chevron-up" />
+    </div>
       <div
         style={{ borderBottom: "1px solid rgba(255, 255, 255, .075)" }}
         className="w-full text-left max-[500px]:hidden"
@@ -56,9 +59,6 @@ function Footer() {
         </div>
       </div>
     </footer>
-    <div id="totop" className="active">
-    <i className="fas fa-chevron-up" />
-    </div>
   );
 }
 
