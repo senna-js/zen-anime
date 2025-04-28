@@ -511,5 +511,6 @@ button, .btn {
     .mw-body {
         font-size: 14px;
         line-height: 1.5em;
+	padding: 5px;
     }
 }
