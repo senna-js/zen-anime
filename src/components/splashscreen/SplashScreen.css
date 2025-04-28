@@ -29,7 +29,136 @@
   );
 	z-index: 30;
 }
+/* Base styles for the body */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa; /* Light background for contrast */
+    color: #333; /* Dark text for readability */
+}
 
+/* Container styling */
+.container {
+    max-width: 1200px; /* Maximum width for larger screens */
+    margin: 0 auto; /* Center the container */
+    padding: 20px; /* Padding inside the container */
+}
+
+/* Share buttons block styling */
+.share-buttons-detail {
+    background-color: #ffffff; /* White background for contrast */
+    padding: 15px; /* Padding around the share buttons */
+    border-radius: 5px; /* Round edges */
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1); /* Subtle shadow */
+}
+
+.share-buttons-block {
+    display: flex; /* Use flexbox for layout */
+    align-items: center; /* Center items vertically */
+}
+
+.share-icon {
+    width: 40px; /* Fixed width for the share icon */
+    height: 40px; /* Fixed height for the share icon */
+    background: url('path/to/icon.png') no-repeat center; /* Icon path to be replaced with actual */
+    background-size: contain; /* Scale background image */
+}
+
+/* Title styling */
+.sbb-title {
+    margin-left: 15px; /* Spacing to the left of the title */
+}
+
+/* Social buttons styling */
+.sbb-social {
+    margin-left: auto; /* Push social buttons to the right */
+    display: flex; /* Use flexbox for layout */
+}
+
+.st-btn {
+    display: flex; /* Flex display for icon and text */
+    align-items: center; /* Center them vertically */
+    padding: 5px 10px; /* Padding for clickable area */
+    margin-left: 10px; /* Spacing between buttons */
+    border: 1px solid #007bff; /* Blue border */
+    border-radius: 5px; /* Round edges */
+    cursor: pointer; /* Pointer cursor on hover */
+    background-color: #ffffff; /* Button background */
+    transition: background-color 0.3s; /* Smooth background color change */
+}
+
+.st-btn:hover {
+    background-color: #f1f1f1; /* Change background on hover */
+}
+
+.st-btn img {
+    width: 20px; /* Icon size */
+    height: auto; /* Auto height */
+}
+
+/* Heading styles */
+.mw-heading {
+    font-size: 26px; /* Font size for headings */
+    margin: 20px 0; /* Margin above and below */
+}
+
+/* Responsive Grid Layout for Content */
+.mwb-2col {
+    display: grid; /* Use CSS Grid */
+    grid-template-columns: 1fr 300px; /* Two columns: 1 fractional unit for the main content and 300px for the sidebar */
+    gap: 20px; /* Space between grid items */
+    margin-top: 20px; /* Space above content */
+}
+
+.mwb-left,
+.mwb-right {
+    background-color: #ffffff; /* Background color for content sections */
+    padding: 15px; /* Padding inside sections */
+    border-radius: 5px; /* Round edges for sections */
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1); /* Subtle shadow */
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .share-buttons-block {
+        flex-direction: column; /* Stack vertically on small screens */
+        align-items: flex-start; /* Align items to the left */
+    }
+
+    .sbb-social {
+        margin-left: 0; /* Remove left margin */
+        margin-top: 10px; /* Add top margin for spacing */
+    }
+
+    .mw-heading {
+        font-size: 22px; /* Smaller font size */
+    }
+
+    .st-btn {
+        width: 100%; /* Full width buttons */
+        margin-bottom: 5px; /* Space between buttons */
+    }
+
+    .st-total {
+        text-align: left; /* Align text to the left */
+        margin-bottom: 10px; /* Space below the total shares */
+    }
+
+    /* Grid layout adjustment for smaller screens */
+    .mwb-2col {
+        grid-template-columns: 1fr; /* Stack items vertically */
+    }
+}
+
+@media (max-width: 576px) {
+    .container {
+        padding: 10px; /* Less padding on mobile */
+    }
+
+    .mw-heading {
+        font-size: 20px; /* Further reduce font size */
+    }
+}
 .container {
 	max-width: 1200px !important;
 	width: 100% !important;
