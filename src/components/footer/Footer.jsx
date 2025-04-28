@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 
 function Footer() {
   return (
-    <div id="totop" className="active">
+    <div className="totop active">
     <i className="fas fa-chevron-up" />
     </div>
     <footer className="flex flex-col w-full mt-[100px] px-4 max-[500px]:px-0">
