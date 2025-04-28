@@ -172,7 +172,7 @@ function SplashScreen() {
             />
           </div>
         </div>
-      </div></br>
+      </div>
         <div className="mw-body">
             <div className="container">
               <div className="mwb-2col">
