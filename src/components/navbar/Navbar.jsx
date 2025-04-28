@@ -73,7 +73,7 @@ function Navbar() {
               className="text-4xl font-bold max-[575px]:text-3xl cursor-pointer"
             >
             <img
-              src="https://wsrv.nl/?url=https://cdn.statically.io/gh/senna-js/zen-anime/main/public/logo.png"
+              src="https://wsrv.nl/?url=https://cdn.statically.io/gh/senna-js/zen-anime/main/public/logo.webp"
               alt="Nonton!me" class="w-[200px] h-[50px]"
             />
             </Link>
