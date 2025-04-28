@@ -1,7 +1,6 @@
 import { useState, useEffect, useCallback } from "react";
 import { Link, useNavigate } from "react-router-dom";
 import "./SplashScreen.css";
-import "./Grid.scss";
 import logoTitle from "@/src/config/logoTitle";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
