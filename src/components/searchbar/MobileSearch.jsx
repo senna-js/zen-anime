@@ -27,7 +27,7 @@ function MobileSearch() {
                 <div className="flex w-full mt-2 relative custom-md:hidden ">
                     <input
                         type="text"
-                        className="bg-white px-4 py-2 text-black focus:outline-none w-full rounded-l-md"
+                        className="px-4 py-2 text-black focus:outline-none w-full rounded-l-md"
                         placeholder="Search anime..."
                         value={searchValue}
                         onChange={(e) => setSearchValue(e.target.value)}
