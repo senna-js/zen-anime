@@ -5,13 +5,12 @@ import { Link } from "react-router-dom";
 function Footer() {
   return (
     <footer className="flex flex-col w-full mt-[100px] px-4 max-[500px]:px-0">
-    </div>
       <div
         style={{ borderBottom: "1px solid rgba(255, 255, 255, .075)" }}
         className="w-full text-left max-[500px]:hidden"
       >
         <img
-          src="https://wsrv.nl/?url=https://cdn.statically.io/gh/senna-js/zen-anime/main/public/logo.png"
+          src="https://wsrv.nl/?url=https://cdn.statically.io/gh/senna-js/zenime-id/main/public/logo.webp"
           alt={logoTitle}
           className="w-[200px] h-[50px]"
         />
@@ -21,7 +20,7 @@ function Footer() {
           <p className="text-2xl font-bold max-md:text-lg">A-Z LIST</p>
           <p
             style={{ borderLeft: "1px solid rgba(255, 255, 255, 0.6)" }}
-            className="text-md font-semibold pl-6"
+            className="pl-6 font-semibold text-md"
           >
             Searching anime order by alphabet name A to Z
           </p>
