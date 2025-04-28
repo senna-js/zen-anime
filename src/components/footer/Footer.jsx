@@ -56,6 +56,9 @@ function Footer() {
         </div>
       </div>
     </footer>
+    <div id="totop" className="active">
+    <i className="fas fa-chevron-up" />
+    </div>
   );
 }
 
