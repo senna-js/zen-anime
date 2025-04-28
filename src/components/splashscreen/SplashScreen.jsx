@@ -119,9 +119,11 @@ function SplashScreen() {
               to="/home"
               className="text-[45px] font-extrabold tracking-wide max-[520px]:text-[38px] max-[520px]:text-center"
             >
-              {logoTitle.slice(0, 3)}
-              <span className="text-[#FFBADE]">{logoTitle.slice(3, 4)}</span>
-              {logoTitle.slice(4)}
+            <img
+              src="https://wsrv.nl/?url=https://cdn.statically.io/gh/senna-js/zen-anime/main/public/logo.png"
+              alt="Splash"
+              className="bg-cover rounded-r-[40px] w-full h-full object-cover"
+            />
             </Link>
             <div className="w-full flex gap-x-3 mt-6">
               <input
