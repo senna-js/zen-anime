@@ -272,7 +272,7 @@ function AnimeInfo({ random = false }) {
             </p>
             <div className="flex gap-x-4 items-center mt-4 max-[575px]:w-full max-[575px]:justify-center max-[320px]:hidden">
               <img
-                src="/public/share-icon.gif"
+                src="/share-icon.gif"
                 alt="Share Anime"
                 className="w-[60px] h-auto rounded-full max-[1024px]:w-[40px]"
               />
@@ -370,7 +370,7 @@ function AnimeInfo({ random = false }) {
                     >
                       {season.season}
                     </p>
-                    <div className="absolute inset-0 z-10 bg-[url('https://i.postimg.cc/pVGY6RXd/thumb.png')] bg-repeat"></div>
+                    <div className="absolute inset-0 z-10 bg-[url('/thumb.png')] bg-repeat"></div>
                     <img
                       src={season.season_poster}
                       alt=""
