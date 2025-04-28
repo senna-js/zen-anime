@@ -74,7 +74,7 @@ function Navbar() {
             >
             <img
               src="https://wsrv.nl/?url=https://cdn.statically.io/gh/senna-js/zen-anime/main/public/logo.png"
-              alt="Nonton!me" class="w-[150px] h-[25px]"
+              alt="Nonton!me" class="w-[150px] h-[50px]"
             />
             </Link>
           </div>
