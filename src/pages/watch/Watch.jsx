@@ -175,7 +175,7 @@ export default function Watch() {
           src={
             !animeInfoLoading
               ? `https://wsrv.nl/?url=${animeInfo?.poster}`
-              : "/public/splash.webp"
+              : "/splash.webp"
           }
           alt={`${animeInfo?.title} Poster`}
           className="absolute inset-0 w-full h-full object-cover filter grayscale z-[-900]"
@@ -308,7 +308,7 @@ export default function Watch() {
                         >
                           {season.season}
                         </p>
-                        <div className="absolute inset-0 z-10 bg-[url('/public/thumb.png')] bg-repeat"></div>
+                        <div className="absolute inset-0 z-10 bg-[url('/thumb.png')] bg-repeat"></div>
                         <img
                           src={`https://wsrv.nl/?url=${season.season_poster}`}
                           alt=""
