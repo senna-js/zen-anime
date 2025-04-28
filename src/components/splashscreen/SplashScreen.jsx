@@ -221,11 +221,11 @@ function SplashScreen() {
                   for anime streaming:
                 </p>
                 <ul style={{ margin: "1rem", boxSizing: "border-box" }}>
-                  <li>
+                  <li style={{ margin: "0.5rem" }}>
                     <strong>Safety:</strong> We try our best to not having harmful ads
                     on HiAnime.
                   </li>
-                  <li>
+                  <li style={{ margin: "0.5rem" }}>
                     <strong>Content library:</strong> Our main focus is anime. You can
                     find here popular, classic, as well as current titles from all
                     genres such as action, drama, kids, fantasy, horror, mystery,
@@ -233,7 +233,7 @@ function SplashScreen() {
                     these titles come with English subtitles or are dubbed in many
                     languages.
                   </li>
-                  <li>
+                  <li style={{ margin: "0.5rem" }}>
                     <strong>Quality/Resolution:</strong> All titles are in excellent
                     resolution, the best quality possible. NontoNime.id also has a
                     quality setting function to make sure our users can enjoy streaming
@@ -241,18 +241,18 @@ function SplashScreen() {
                     at 360p if your Internet is being ridiculous, Or if it is good, you
                     can go with 720p or even 1080p anime.
                   </li>
-                  <li>
+                  <li style={{ margin: "0.5rem" }}>
                     <strong>Streaming experience:</strong> Compared to other anime
                     streaming sites, the loading speed at NontoNime.id is faster.
                     Downloading is just as easy as streaming, you won't have any problem
                     saving the videos to watch offline later.
                   </li>
-                  <li>
+                  <li style={{ margin: "0.5rem" }}>
                     <strong>Updates:</strong> We updates new titles as well as fulfill
                     the requests on a daily basis so be warned, you will never run out
                     of what to watch on HiAnime.
                   </li>
-                  <li>
+                  <li style={{ margin: "0.5rem" }}>
                     <strong>User interface:</strong> Our UI and UX makes it easy for
                     anyone, no matter how old you are, how long have you been on the
                     Internet. Literally, you can figure out how to navigate our site
@@ -261,12 +261,12 @@ function SplashScreen() {
                     can use the site's categories or simply scroll down for new
                     releases.
                   </li>
-                  <li>
+                  <li style={{ margin: "0.5rem" }}>
                     <strong>Device compatibility:</strong> HiAnime works alright on both
                     your mobile and desktop. However, we'd recommend you use your
                     desktop for a smoother streaming experience.
                   </li>
-                  <li>
+                  <li style={{ margin: "0.5rem" }}>
                     <strong>Customer care:</strong> We are in active mode 24/7. You can
                     always contact us for any help, query, or business-related inquiry.
                     On our previous projects, we were known for our great customer
