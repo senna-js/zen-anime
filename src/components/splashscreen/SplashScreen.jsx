@@ -177,86 +177,87 @@ function SplashScreen() {
       </div>
       <div className="mw-body">
           <div className="container">
-            <div className="share-buttons share-buttons-detail">
-              <div className="share-buttons-block">
-                <div className="share-icon" />
-                <div className="sbb-title mr-3">
-                  <span>Share Nontonime</span>
-                  <p className="mb-0">to your friends</p>
-                </div>
-                <div className="sbb-social">
-                  <div
-                    className="sharethis-inline-share-buttons st-center st-has-labels  st-inline-share-buttons st-animated"
-                    id="st-1"
-                  >
-                    <div className="st-total ">
-                      <span className="st-label">17.6k</span>
-                      <span className="st-shares"> Shares </span>
-                    </div>
+            <div className="share-buttons share-buttons-home">
+              <div className="container">
+                <div
+                  className="share-buttons-block"
+                  style={{ display: "flex", justifyContent: "center" }}
+                >
+                  <div className="share-icon" />
+                  <div className="sbb-title mr-3">
+                    <span>Share Nontonime</span>
+                    <p className="mb-0">to your friends</p>
+                  </div>
+                  <div className="sbb-social">
                     <div
-                      className="st-btn st-first                                                                                                                                                                       st-remove-label"
-                      data-network="telegram"
-                      style={{ display: "none" }}
+                      className="sharethis-inline-share-buttons st-center st-has-labels  st-inline-share-buttons st-animated"
+                      id="st-1"
                     >
-                      <img
-                        alt="telegram sharing button"
-                        src="https://platform-cdn.sharethis.com/img/telegram.svg"
-                      />
-                      <span className="st-label">Share</span>
-                    </div>
-                    <div
-                      className="st-btn                                                                                                                                                                        st-remove-label"
-                      data-network="twitter"
-                      style={{ display: "none" }}
-                    >
-                      <img
-                        alt="twitter sharing button"
-                        src="https://platform-cdn.sharethis.com/img/twitter.svg"
-                      />
-                      <span className="st-label">Tweet</span>
-                    </div>
-                    <div
-                      className="st-btn                                                                                                                                                                         st-remove-label"
-                      data-network="facebook"
-                      style={{ display: "none" }}
-                    >
-                      <img
-                        alt="facebook sharing button"
-                        src="https://platform-cdn.sharethis.com/img/facebook.svg"
-                      />
-                      <span className="st-label">Share</span>
-                    </div>
-                    <div
-                      className="st-btn                                                                                                                                                                          st-remove-label"
-                      data-network="reddit"
-                      style={{ display: "none" }}
-                    >
-                      <img
-                        alt="reddit sharing button"
-                        src="https://platform-cdn.sharethis.com/img/reddit.svg"
-                      />
-                      <span className="st-label">Share</span>
-                    </div>
-                    <div
-                      className="st-btn st-last                                                                                                                                                                           st-remove-label"
-                      data-network="sharethis"
-                      style={{ display: "inline-block" }}
-                    >
-                      <img
-                        alt="sharethis sharing button"
-                        src="https://platform-cdn.sharethis.com/img/sharethis.svg"
-                      />
-                      <span className="st-label">Share</span>
+                      <div
+                        className="st-btn st-first"
+                        data-network="facebook"
+                        style={{ display: "inline-block" }}
+                      >
+                        <img
+                          alt="facebook sharing button"
+                          src="https://platform-cdn.sharethis.com/img/facebook.svg"
+                        />
+                        <span className="st-label">Share</span>
+                      </div>
+                      <div
+                        className="st-btn"
+                        data-network="twitter"
+                        style={{ display: "inline-block" }}
+                      >
+                        <img
+                          alt="twitter sharing button"
+                          src="https://platform-cdn.sharethis.com/img/twitter.svg"
+                        />
+                        <span className="st-label">Tweet</span>
+                      </div>
+                      <div
+                        className="st-btn"
+                        data-network="email"
+                        style={{ display: "inline-block" }}
+                      >
+                        <img
+                          alt="email sharing button"
+                          src="https://platform-cdn.sharethis.com/img/email.svg"
+                        />
+                        <span className="st-label">Email</span>
+                      </div>
+                      <div
+                        className="st-btn st-remove-label"
+                        data-network="whatsapp"
+                        style={{ display: "inline-block" }}
+                      >
+                        <img
+                          alt="whatsapp sharing button"
+                          src="https://platform-cdn.sharethis.com/img/whatsapp.svg"
+                        />
+                        <span className="st-label">Share</span>
+                      </div>
+                      <div
+                        className="st-btn st-last  st-remove-label"
+                        data-network="sharethis"
+                        style={{ display: "inline-block" }}
+                      >
+                        <img
+                          alt="sharethis sharing button"
+                          src="https://platform-cdn.sharethis.com/img/sharethis.svg"
+                        />
+                        <span className="st-label">Share</span>
+                      </div>
                     </div>
                   </div>
+                  <div className="clearfix" />
                 </div>
-                <div className="clearfix" />
               </div>
             </div>
             <div className="mwb-2col">
               <div className="mwb-left">
                 <h1 className="mw-heading">
-                  Nontonime.id - The best site to watch anime online for Free
+                  Nontonime - The best site to watch anime online for Free
                 </h1>
                 <p>
                   Do you know that according to Google, the monthly search volume for
@@ -267,28 +268,26 @@ function SplashScreen() {
                 <p>
                   Just like free online movie streaming sites, anime watching sites are
                   not created equally, some are better than the rest, so we've decided
-                  to build Nontonime.id to be one of the best free anime streaming site
+                  to build Nontonime to be one of the best free anime streaming site
                   for all anime fans on the world.
                 </p>
-                <h2>1/ What is Nontonime.id?</h2>
+                <h2>1/ What is Nontonime?</h2>
                 <p>
-                  Nontonime.id is a free site to watch anime and you can even download
+                  Nontonime is a free site to watch anime and you can even download
                   subbed or dubbed anime in ultra HD quality without any registration or
-                  payment. By having only one ads in all kinds, we are trying to make it
-                  the safest site for free anime.
+                  payment. By having No Ads in all kinds, we are trying to make it the
+                  safest site for free anime.
                 </p>
-                <h2>2/ Is Nontonime.id safe?</h2>
+                <h2>2/ Is Nontonime safe?</h2>
                 <p>
-                  Yes we are, we do have only one Ads to cover the server cost and we
-                  keep scanning the ads 24/7 to make sure all are clean, If you find any
-                  ads that is suspicious, please forward us the info and we will remove
-                  it.
+                  Yes we are, If you find any ads that is suspicious, please forward us
+                  the info and we will remove it.
                 </p>
                 <h2>
-                  3/ So what make Nontonime.id the best site to watch anime free online?
+                  3/ So what make Nontonime the best site to watch anime free online?
                 </h2>
                 <p>
-                  Before building Nontonime.id, we've checked many other free anime
+                  Before building Nontonime, we've checked many other free anime
                   sites, and learnt from them. We only keep the good things and remove
                   all the bad things from all the competitors, to put it in our
                   Nontonime website. Let's see how we're so confident about being the
@@ -309,7 +308,7 @@ function SplashScreen() {
                   </li>
                   <li>
                     <strong>Quality/Resolution:</strong> All titles are in excellent
-                    resolution, the best quality possible. Nontonime.id also has a
+                    resolution, the best quality possible. Nontonime also has a
                     quality setting function to make sure our users can enjoy streaming
                     no matter how fast your Internet speed is. You can stream the anime
                     at 360p if your Internet is being ridiculous, Or if it is good, you
@@ -317,7 +316,7 @@ function SplashScreen() {
                   </li>
                   <li>
                     <strong>Streaming experience:</strong> Compared to other anime
-                    streaming sites, the loading speed at Nontonime.id is faster.
+                    streaming sites, the loading speed at Nontonime is faster.
                     Downloading is just as easy as streaming, you won't have any problem
                     saving the videos to watch offline later.
                   </li>
@@ -336,9 +335,10 @@ function SplashScreen() {
                     releases.
                   </li>
                   <li>
-                    <strong>Device compatibility:</strong> Nontonime works alright on
-                    both your mobile and desktop. However, we'd recommend you use your
-                    desktop for a smoother streaming experience.
+                    <strong>Device compatibility:</strong>
+                    Nontonime works alright on both your mobile and desktop. However,
+                    we'd recommend you use your desktop for a smoother streaming
+                    experience.
                   </li>
                   <li>
                     <strong>Customer care:</strong> We are in active mode 24/7. You can
@@ -350,7 +350,7 @@ function SplashScreen() {
                 </ul>
                 <p>
                   So if you're looking for a trustworthy and safe site for your Anime
-                  streaming, let's give Nontonime.id a try. And if you like us, please
+                  streaming, let's give Nontonime a try. And if you like us, please
                   help us to spread the words and do not forget to bookmark our site.
                 </p>
                 <p>Thank you!</p>
@@ -358,330 +358,64 @@ function SplashScreen() {
               </div>
               <div className="mwb-right">
                 <div className="zr-connect zr-connect-list">
-                  <h2 className="heading-news">Trending Posts</h2>
+                  <h2 className="heading-news">
+                    Trending Posts
+                    <i className="fa-solid fa-person-digging" />
+                  </h2>
                   <div className="connecting-list">
                     <div className="item">
                       <div className="gi-top d-flex justify-content-between align-items-center">
                         <div className="ztag">
-                          <span className="zt-yellow mr-2">#Question</span>
+                          <span className="zt-purple mr-2">#Feature</span>
                           <div className="time d-inline">
                             <span>
-                              <i className="dot mr-2" />
-                              17 hours ago{" "}
+                              <i className="dot mr-2" />2 days ago
                             </span>
                           </div>
                         </div>
                         <div className="gi-stats d-flex align-items-center">
                           <div className="ml-4">
                             <i className="fas fa-comment mr-1" />
-                            396
+                            15
                           </div>
                         </div>
                       </div>
                       <h4 className="item-name">
-                        <a
-                          href="#"
-                          title="What is the worst anime u have ever watched or dropped in the first ep"
-                        >
-                          What is the worst anime u have ever watched or dropped in the
-                          first ep
-                        </a>
-                      </h4>
-                      <div className="subject">
-                        <div>ya the title says it all</div>
-                      </div>
-                      <div className="cn-owner">
-                        <div className="profile-avatar">
-                          <img
-                            src="https://cdn.noitatnemucod.net/avatar/100x100/demon_splayer/File15.jpg"
-                            alt="zqwxxh"
-                          />
-                        </div>
-                        <a href="#" target="_blank" className="user-name">
-                          zqwxxh
-                        </a>
-                      </div>
-                    </div>
-                    <div className="item">
-                      <div className="gi-top d-flex justify-content-between align-items-center">
-                        <div className="ztag">
-                          <span className="zt-blue mr-2">#General</span>
-                          <div className="time d-inline">
-                            <span>
-                              <i className="dot mr-2" />
-                              13 hours ago{" "}
-                            </span>
-                          </div>
-                        </div>
-                        <div className="gi-stats d-flex align-items-center">
-                          <div className="ml-4">
-                            <i className="fas fa-comment mr-1" />
-                            120
-                          </div>
-                        </div>
-                      </div>
-                      <h4 className="item-name">
-                        <a href="#" title="WHERE MY HOMIES AT??">
-                          WHERE MY HOMIES AT??
+                        <a href="/community/post/constructing-new-features-243342">
+                          Constructing New Features for Our Platform
                         </a>
                       </h4>
                       <div className="subject">
                         <div>
-                          All my homies, best friends and friends, I am in need of your
-                          help 🙏🏻 A guy named "you creep" came on a post regarding
-                          physical mangas where I had commented "I don't own any mangas"
-                          and replied with "that's coz ure a brokie". This guy is now
-                          trash talking me, using foul language and slurs. We don't need
-                          kids like these in the community, do we?? Communities are
-                          Toxic, Kyolord, TUSHAR, Radzz, Thesilentcoldyy, RORCEPTUS,
-                          Gustav, Sir Crocodile, Sanji, and many more of my homies,
-                          let's gang up on "you creep". I'll provide you with the post
-                          link guys ✌🏻 This "you creep" thinks my ahh is on Nontonime
-                          the whole day. Gotta deadahh show him who're the bosses around
-                          here 💪🏻🔫 Or you can make your own posts showing him not to
-                          mess with the anilords around here, coz that's the one thing
-                          you're not expected to do... THANK YOU EVERYBODY 💪🏻🔫
+                          We are working on implementing new features to enhance your
+                          anime streaming experience. Stay tuned for upcoming updates...
                         </div>
                       </div>
                       <div className="cn-owner">
                         <div className="profile-avatar">
                           <img
-                            src="https://cdn.noitatnemucod.net/avatar/100x100/spy_family/01.png"
-                            alt="XX_JJMaGnAnIMuZz_XX"
+                            src="https://avatars.githubusercontent.com/u/118072581?v=4"
+                            alt="Admin"
                           />
                         </div>
                         <a
-                          href="#"
-                          target="_blank"
+                          href="https://dcd.gg/#"
                           className="user-name is-level-x is-level-a"
                         >
-                          <i className="badg-level level-a up-4" /> XX_JJMaGnAnIMuZz_XX{" "}
-                          <span>Dolphin</span>
-                        </a>
-                      </div>
-                    </div>
-                    <div className="item">
-                      <div className="gi-top d-flex justify-content-between align-items-center">
-                        <div className="ztag">
-                          <span className="zt-blue mr-2">#General</span>
-                          <div className="time d-inline">
-                            <span>
-                              <i className="dot mr-2" />
-                              11 hours ago{" "}
-                            </span>
-                          </div>
-                        </div>
-                        <div className="gi-stats d-flex align-items-center">
-                          <div className="ml-4">
-                            <i className="fas fa-comment mr-1" />
-                            73
-                          </div>
-                        </div>
-                      </div>
-                      <h4 className="item-name">
-                        <a href="#" title="Yoo Mods :)">
-                          Yoo Mods :)
-                        </a>
-                      </h4>
-                      <div className="subject">
-                        <div>
-                          Just wanna say hi 👋 (Lowkey curious if they gonna reply 👀🌚)
-                        </div>
-                      </div>
-                      <div className="cn-owner">
-                        <div className="profile-avatar">
-                          <img
-                            src="https://cdn.noitatnemucod.net/avatar/100x100/dragon_ball_chibi/beerus.png"
-                            alt="☣Kaiser㊗🥷🏻"
-                          />
-                        </div>
-                        <a href="#" target="_blank" className="user-name">
-                          ☣Kaiser㊗🥷🏻
-                        </a>
-                      </div>
-                    </div>
-                    <div className="item">
-                      <div className="gi-top d-flex justify-content-between align-items-center">
-                        <div className="ztag">
-                          <span className="zt-blue mr-2">#General</span>
-                          <div className="time d-inline">
-                            <span>
-                              <i className="dot mr-2" />
-                              15 hours ago{" "}
-                            </span>
-                          </div>
-                        </div>
-                        <div className="gi-stats d-flex align-items-center">
-                          <div className="ml-4">
-                            <i className="fas fa-comment mr-1" />
-                            91
-                          </div>
-                        </div>
-                      </div>
-                      <h4 className="item-name">
-                        <a
-                          href="#"
-                          title="Showdown of the Main Characters - Round 2 Results 🏆"
-                        >
-                          Showdown of the Main Characters - Round 2 Results 🏆
-                        </a>
-                      </h4>
-                      <div className="subject">
-                        <div>
-                          📝POINTS TO BE NOTED:- 🌟 This is only the results of round 2
-                          and round 3🌚 will be live at or after 8:00 Pm IST 🌟 Highest
-                          voted character from each bracket will be promoted to next
-                          round and remaining will be eliminated 🌟 For further
-                          confirmation of counting you can re visit Round 2
-                          (Nontonimez.to/community/post/showdown-of-the-main-characters-round-2-261876)
-                          Here are the results:- 1. 🏅 Subaru Natsuki (26) [Re:Zero] vs
-                          Tanjiro Kamado (23) [Demon Slayer] 2. 🏅 Arthur (25) [The
-                          Beginning After the End] vs Asta (23)[Black Clover] 3.
-                          🏅Ayanokoji Kiyotaka (25) [Classroom of the Elite] vs Gintoki
-                          (23) [Gintama] 4. 🏅Guts (28) [Berserk] vs Edward Elric (21)
-                          [Fullmetal Alchemist: Brotherhood] 5. 🏅Eren Yeager (41)
-                          [Attack on Titan] vs Kenzo Tenma (10) [Monster] 6. 🏅Thorfinn
-                          (42) [Vinland Saga] vs Ginko (6) [Mushi-shi] 7.🏅Violet
-                          Evergarden (32) [Violet Evergarden] Vs Oreki Houtarou (15)
-                          [Hyouka] 8. 🏅Ichigo (30) [Bleach] Vs Senku (20) [Dr. Stone]
-                          [Post no: 88th] [Date: 27/4/25]
-                        </div>
-                      </div>
-                      <div className="cn-owner">
-                        <div className="profile-avatar">
-                          <img
-                            src="https://cdn.noitatnemucod.net/avatar/100x100/dragon_ball_chibi/goku.png"
-                            alt="Sir Crocodile💫"
-                          />
-                        </div>
-                        <a
-                          href="#"
-                          target="_blank"
-                          className="user-name is-level-x is-level-a"
-                        >
-                          <i className="badg-level level-a up-4" /> Sir Crocodile💫{" "}
-                          <span>Dolphin</span>
-                        </a>
-                      </div>
-                    </div>
-                    <div className="item">
-                      <div className="gi-top d-flex justify-content-between align-items-center">
-                        <div className="ztag">
-                          <span className="zt-blue mr-2">#General</span>
-                          <div className="time d-inline">
-                            <span>
-                              <i className="dot mr-2" />
-                              14 hours ago{" "}
-                            </span>
-                          </div>
-                        </div>
-                        <div className="gi-stats d-flex align-items-center">
-                          <div className="ml-4">
-                            <i className="fas fa-comment mr-1" />
-                            92
-                          </div>
-                        </div>
-                      </div>
-                      <h4 className="item-name">
-                        <a href="#" title="TOP 5 Ecchi">
-                          TOP 5 Ecchi
-                        </a>
-                      </h4>
-                      <div className="subject">
-                        <div>Tell me ur top 5 ECCHI anime (If u want, TOP 10).</div>
-                      </div>
-                      <div className="cn-owner">
-                        <div className="profile-avatar">
-                          <img
-                            src="https://cdn.noitatnemucod.net/avatar/100x100/zoro_normal/av-zz-01.jpeg"
-                            alt="Max"
-                          />
-                        </div>
-                        <a
-                          href="#"
-                          target="_blank"
-                          className="user-name is-level-x is-level-a"
-                        >
-                          <i className="badg-level level-a up-4" /> Max{" "}
-                          <span>Dolphin</span>
-                        </a>
-                      </div>
-                    </div>
-                    <div className="item">
-                      <div className="gi-top d-flex justify-content-between align-items-center">
-                        <div className="ztag">
-                          <span className="zt-purple mr-2">#Discussion</span>
-                          <div className="time d-inline">
-                            <span>
-                              <i className="dot mr-2" />
-                              21 hours ago{" "}
-                            </span>
-                          </div>
-                        </div>
-                        <div className="gi-stats d-flex align-items-center">
-                          <div className="ml-4">
-                            <i className="fas fa-comment mr-1" />
-                            162
-                          </div>
-                        </div>
-                      </div>
-                      <h4 className="item-name">
-                        <a href="#" title="For those who think aot is mid.">
-                          For those who think aot is mid.
-                        </a>
-                      </h4>
-                      <div className="subject">
-                        <div>
-                          With 606k ratings and having a rating of 9.1 in imdb is
-                          something that not any other anime can achieve that. Aot won
-                          40 awards and have 90 nominations. Jjk which won 9 awards at
-                          2023 crunchyroll awards still have only 31 awards. Aot is
-                          first ever anime to won a astra award and have highest number
-                          of awards in the history of anime series. 363k people who
-                          rated aot 10 star are not blind and illiterate acclaim a show
-                          in that high regards. And you people may not know but imdb
-                          rating are based on weighted ratings means it not just make a
-                          average of all people ratings and rate a show but it takes
-                          ratings from their highly trusted reviewers and then rate it.
-                          And it is #21 top rated of all time in imdb not just anime but
-                          of all time. Aot has at the present time 8, 9.8 rated eps and
-                          5 , 9.7 rated even after too much bomabarding. Aot is the most
-                          selling manga PROPORTION wise : 34 volumes with 140 millions
-                          copies sold ( i ain't baiting one piece fans. it is also my
-                          2nd fav anime but it also has 1146 chapters , which it indeed
-                          needed for such a big story). "Hero" ep is highest rated anime
-                          ep in terms of no of people voting which crosses 145k till
-                          this date. Many anime eps which a 9.8 ratings but not able to
-                          cross 10k or 20k and max to max 30k . Isayama's home town :
-                          ōyama is full themed by the aot merchandise and given many
-                          tribute to isayama for completing such a story.
-                        </div>
-                      </div>
-                      <div className="cn-owner">
-                        <div className="profile-avatar">
-                          <img
-                            src="https://cdn.noitatnemucod.net/avatar/100x100/mha/avatar-18.png"
-                            alt="emmerseave"
-                          />
-                        </div>
-                        <a
-                          href="#"
-                          target="_blank"
-                          className="user-name is-level-x is-level-a"
-                        >
-                          <i className="badg-level level-a" /> emmerseave{" "}
-                          <span>Angelfish</span>
+                          <i className="fa-solid fa-person-digging" />
+                          Admin Developers
+                          <span>Nontonime</span>
                         </a>
                       </div>
                     </div>
                   </div>
                   <div className="d-block">
                     <a
-                      href="#"
+                      href="https://dcd.gg/#"
                       className="btn btn-sm py-2 btn-block btn-radius btn-blank text-white"
                       style={{ backgroundColor: "rgba(255,255,255,.1)" }}
                     >
-                      Read more
+                      Join our Discord
                     </a>
                   </div>
                 </div>
