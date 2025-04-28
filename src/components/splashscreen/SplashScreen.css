@@ -85,6 +85,15 @@ body {
 	margin: 1px 6px 1px 0 !important;
 }
 
+.h2, h2 {
+    font-size: 2rem;
+}
+
+dl, ol, ul {
+    margin-top: 0;
+    margin-bottom: 1rem;
+}
+
 .mb-0, .my-0 {
 	margin-bottom: 0 !important;
 }
