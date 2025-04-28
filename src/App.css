@@ -25,3 +25,26 @@ body,
 footer {
   margin-top: auto;
 }
+#totop.active {
+    display: block;
+}
+#totop {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    text-align: center;
+    background-color: #fff;
+    cursor: pointer;
+    z-index: 9;
+    display: none;
+    opacity: .8;
+    box-shadow: 0 0 15px 0 rgba(0, 0, 0, .1);
+}
+#totop i {
+    line-height: 50px;
+    color: #000;
+    font-size: 16px;
+}
