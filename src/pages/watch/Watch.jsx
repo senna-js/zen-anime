@@ -465,7 +465,7 @@ export default function Watch() {
       </div>
       <div className="w-full flex gap-x-4 items-center bg-[#191826] p-5 max-[575px]:px-3 max-[320px]:hidden">
         <img
-          src="/public/share-icon.gif"
+          src="/share-icon.gif"
           alt="Share Anime"
           className="w-[60px] h-auto rounded-full max-[1024px]:w-[40px] max-[575px]:hidden"
         />
