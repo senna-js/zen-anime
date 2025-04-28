@@ -48,7 +48,7 @@ function MobileSearch() {
                             }
                         }}
                     />
-                    <button className="flex items-center justify-center p-2 bg-white rounded-r-md"
+                    <button className="flex items-center justify-center p-2 bg-transparent rounded-r-md"
                         onClick={handleSearchClick}
                     >
                         <FontAwesomeIcon
