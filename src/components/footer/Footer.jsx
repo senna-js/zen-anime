@@ -10,7 +10,7 @@ function Footer() {
         className="w-full text-left max-[500px]:hidden"
       >
         <img
-          src="https://wsrv.nl/?url=https://cdn.statically.io/gh/senna-js/zenime-id/main/public/logo.webp"
+          src="https://wsrv.nl/?url=https://cdn.statically.io/gh/senna-js/zenime-id/main/public/logo.png"
           alt={logoTitle}
           className="w-[200px] h-[50px]"
         />
