@@ -37,6 +37,10 @@ body {
     color: #ccc;
 }
 
+.mw-body {
+    padding: 50px;
+}
+
 .container {
 	max-width: 1200px !important;
 	width: 100% !important;
