@@ -190,23 +190,23 @@ function SplashScreen() {
                     <span class="st-shares"> Shares </span>
                   </div>
                   <div class="st-btn st-first                                                                                                                                                                       st-remove-label" data-network="telegram" style="display: none;">
-                    <img alt="telegram sharing button" src="https://platform-cdn.sharethis.com/img/telegram.svg">
+                    <img alt="telegram sharing button" src="https://platform-cdn.sharethis.com/img/telegram.svg"/>
                     <span class="st-label">Share</span>
                   </div>
                   <div class="st-btn                                                                                                                                                                        st-remove-label" data-network="twitter" style="display: none;">
-                    <img alt="twitter sharing button" src="https://platform-cdn.sharethis.com/img/twitter.svg">
+                    <img alt="twitter sharing button" src="https://platform-cdn.sharethis.com/img/twitter.svg"/>
                     <span class="st-label">Tweet</span>
                   </div>
                   <div class="st-btn                                                                                                                                                                         st-remove-label" data-network="facebook" style="display: none;">
-                    <img alt="facebook sharing button" src="https://platform-cdn.sharethis.com/img/facebook.svg">
+                    <img alt="facebook sharing button" src="https://platform-cdn.sharethis.com/img/facebook.svg"/>
                     <span class="st-label">Share</span>
                   </div>
                   <div class="st-btn                                                                                                                                                                          st-remove-label" data-network="reddit" style="display: none;">
-                    <img alt="reddit sharing button" src="https://platform-cdn.sharethis.com/img/reddit.svg">
+                    <img alt="reddit sharing button" src="https://platform-cdn.sharethis.com/img/reddit.svg"/>
                     <span class="st-label">Share</span>
                   </div>
                   <div class="st-btn st-last                                                                                                                                                                           st-remove-label" data-network="sharethis" style="display: inline-block;">
-                    <img alt="sharethis sharing button" src="https://platform-cdn.sharethis.com/img/sharethis.svg">
+                    <img alt="sharethis sharing button" src="https://platform-cdn.sharethis.com/img/sharethis.svg"/>
                     <span class="st-label">Share</span>
                   </div>
                 </div>
@@ -256,20 +256,6 @@ function SplashScreen() {
               <p>&nbsp;</p>
             </div>
             <div class="mwb-right">
-              <!--                        <div style="margin-bottom: 30px;">-->
-              <!--                            <div id="bg-ssp-10411">-->
-              <!--                                <script data-cfasync="false">-->
-              <!--                                  var bg_id_10411 = document.getElementById('bg-ssp-10411');-->
-              <!--                                  bg_id_10411.id = 'bg-ssp-10411-' + Math.floor(Math.random() * Date.now());-->
-              <!--                                  window.pubbidgeartag = window.pubbidgeartag || [];-->
-              <!--                                  window.pubbidgeartag.push({-->
-              <!--                                    zoneid: 10411,-->
-              <!--                                    id: bg_id_10411.id,-->
-              <!--                                    wu: window.location.href-->
-              <!--                                  })-->
-              <!--                                </script>-->
-              <!--                            </div>-->
-              <!--                        </div>-->
               <div class="zr-connect zr-connect-list">
                 <h2 class="heading-news">Trending Posts</h2>
                 <div class="connecting-list">
@@ -296,7 +282,7 @@ function SplashScreen() {
                     </div>
                     <div class="cn-owner">
                       <div class="profile-avatar">
-                        <img src="https://cdn.noitatnemucod.net/avatar/100x100/demon_splayer/File15.jpg" alt="zqwxxh">
+                        <img src="https://cdn.noitatnemucod.net/avatar/100x100/demon_splayer/File15.jpg" alt="zqwxxh"/>
                       </div>
                       <a href="#" target="_blank" class="user-name">zqwxxh</a>
                     </div>
@@ -324,7 +310,7 @@ function SplashScreen() {
                     </div>
                     <div class="cn-owner">
                       <div class="profile-avatar">
-                        <img src="https://cdn.noitatnemucod.net/avatar/100x100/spy_family/01.png" alt="XX_JJMaGnAnIMuZz_XX">
+                        <img src="https://cdn.noitatnemucod.net/avatar/100x100/spy_family/01.png" alt="XX_JJMaGnAnIMuZz_XX"/>
                       </div>
                       <a href="#" target="_blank" class="user-name is-level-x is-level-a">
                         <i class="badg-level level-a up-4"></i> XX_JJMaGnAnIMuZz_XX <span>Dolphin</span>
@@ -354,7 +340,7 @@ function SplashScreen() {
                     </div>
                     <div class="cn-owner">
                       <div class="profile-avatar">
-                        <img src="https://cdn.noitatnemucod.net/avatar/100x100/dragon_ball_chibi/beerus.png" alt="☣Kaiser㊗🥷🏻">
+                        <img src="https://cdn.noitatnemucod.net/avatar/100x100/dragon_ball_chibi/beerus.png" alt="☣Kaiser㊗🥷🏻"/>
                       </div>
                       <a href="#" target="_blank" class="user-name">☣Kaiser㊗🥷🏻</a>
                     </div>
@@ -382,7 +368,7 @@ function SplashScreen() {
                     </div>
                     <div class="cn-owner">
                       <div class="profile-avatar">
-                        <img src="https://cdn.noitatnemucod.net/avatar/100x100/dragon_ball_chibi/goku.png" alt="Sir Crocodile💫">
+                        <img src="https://cdn.noitatnemucod.net/avatar/100x100/dragon_ball_chibi/goku.png" alt="Sir Crocodile💫"/>
                       </div>
                       <a href="#" target="_blank" class="user-name is-level-x is-level-a">
                         <i class="badg-level level-a up-4"></i> Sir Crocodile💫 <span>Dolphin</span>
@@ -412,7 +398,7 @@ function SplashScreen() {
                     </div>
                     <div class="cn-owner">
                       <div class="profile-avatar">
-                        <img src="https://cdn.noitatnemucod.net/avatar/100x100/zoro_normal/av-zz-01.jpeg" alt="Max">
+                        <img src="https://cdn.noitatnemucod.net/avatar/100x100/zoro_normal/av-zz-01.jpeg" alt="Max"/>
                       </div>
                       <a href="#" target="_blank" class="user-name is-level-x is-level-a">
                         <i class="badg-level level-a up-4"></i> Max <span>Dolphin</span>
@@ -442,7 +428,7 @@ function SplashScreen() {
                     </div>
                     <div class="cn-owner">
                       <div class="profile-avatar">
-                        <img src="https://cdn.noitatnemucod.net/avatar/100x100/mha/avatar-18.png" alt="emmerseave">
+                        <img src="https://cdn.noitatnemucod.net/avatar/100x100/mha/avatar-18.png" alt="emmerseave"/>
                       </div>
                       <a href="#" target="_blank" class="user-name is-level-x is-level-a">
                         <i class="badg-level level-a"></i> emmerseave <span>Angelfish</span>
