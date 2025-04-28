@@ -72,9 +72,10 @@ function Navbar() {
               to="/"
               className="text-4xl font-bold max-[575px]:text-3xl cursor-pointer"
             >
-              {logoTitle.slice(0, 3)}
-              <span className="text-[#FFBADE]">{logoTitle.slice(3, 4)}</span>
-              {logoTitle.slice(4)}
+            <img
+              src="https://wsrv.nl/?url=https://cdn.statically.io/gh/senna-js/zen-anime/main/public/logo.png"
+              alt="Nonton!me" class="w-[205px] h-[50px]"
+            />
             </Link>
           </div>
           <WebSearch />
