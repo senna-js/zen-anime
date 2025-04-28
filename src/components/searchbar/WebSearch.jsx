@@ -30,7 +30,7 @@ function WebSearch() {
         <div className="flex items-center relative w-[380px] max-[600px]:w-fit">
             <input
                 type="text"
-                className="bg-transparent px-4 py-2 text-white focus:outline-none w-full max-[600px]:hidden"
+                className="bg-white px-4 py-2 text-black focus:outline-none w-full max-[600px]:hidden"
                 placeholder="Search anime..."
                 value={searchValue}
                 onChange={(e) => setSearchValue(e.target.value)}
