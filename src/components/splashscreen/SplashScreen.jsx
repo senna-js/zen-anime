@@ -121,8 +121,7 @@ function SplashScreen() {
             >
             <img
               src="https://wsrv.nl/?url=https://cdn.statically.io/gh/senna-js/zen-anime/main/public/logo.png"
-              alt="Splash"
-              className="bg-cover rounded-r-[40px] w-full h-full object-cover"
+              alt="Nonton!me" class="w-[200px] h-[50px]"
             />
             </Link>
             <div className="w-full flex gap-x-3 mt-6">
