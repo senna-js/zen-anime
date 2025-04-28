@@ -1,7 +1,7 @@
 *,
 *::before,
 *::after {
-  box-sizing: border-box; // 1
+  box-sizing: border-box;
 }
 .splashscreen {
 	overflow: hidden;
@@ -34,12 +34,12 @@
   );
 	z-index: 30;
 }
-/* Base styles for the body */
+
 body {
     margin: 0;
     font-family: Arial, sans-serif;
-    background-color: #201f31; /* Light background for contrast */
-    color: #ccc; /* Dark text for readability */
+    background-color: #201f31;
+    color: #ccc;
 }
 
 .container {
