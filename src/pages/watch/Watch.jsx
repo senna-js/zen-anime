@@ -1,3 +1,4 @@
+/* eslint-disable react/prop-types */
 import { useEffect, useRef, useState } from "react";
 import { useLocation, useParams, Link, useNavigate } from "react-router-dom";
 import { useLanguage } from "@/src/context/LanguageContext";
@@ -66,28 +67,33 @@ export default function Watch() {
     autoNext,
     setAutoNext,
   } = useWatchControl();
-  // Set episodeId to first episode if not provided in URL
-  useEffect(() => {
-    if (!episodeId && episodes && episodes.length > 0) {
-      const firstEpisodeId = episodes[0].id.match(/ep=(\d+)/)?.[1];
-      setEpisodeId(firstEpisodeId);
-    }
-  }, [episodes, episodeId]);
 
-  // Handle URL updates when episodeId changes
   useEffect(() => {
-    if (episodeId) {
-      const newUrl = `/watch/${animeId}?ep=${episodeId}`;
-      if (isFirstSet.current) {
-        // Initial load: replace history entry
-        navigate(newUrl, { replace: true });
-        isFirstSet.current = false;
-      } else {
-        // Subsequent changes: push new history entry
-        navigate(newUrl);
+    if (!episodes || episodes.length === 0) return;
+    
+    const isValidEpisode = episodes.some(ep => {
+      const epNumber = ep.id.split('ep=')[1];
+      return epNumber === episodeId; 
+    });
+    
+    // If missing or invalid episodeId, fallback to first
+    if (!episodeId || !isValidEpisode) {
+      const fallbackId = episodes[0].id.match(/ep=(\d+)/)?.[1];
+      if (fallbackId && fallbackId !== episodeId) {
+        setEpisodeId(fallbackId);
       }
+      return;
     }
-  }, [episodeId, animeId, navigate]);
+  
+    const newUrl = `/watch/${animeId}?ep=${episodeId}`;
+    if (isFirstSet.current) {
+      navigate(newUrl, { replace: true });
+      isFirstSet.current = false;
+    } else {
+      navigate(newUrl);
+    }
+  // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [episodeId, animeId, navigate, episodes]);
 
   // Update document title
   useEffect(() => {
@@ -175,7 +181,7 @@ export default function Watch() {
           src={
             !animeInfoLoading
               ? `https://wsrv.nl/?url=${animeInfo?.poster}`
-              : "/splash.webp"
+              : "/spash.webp"
           }
           alt={`${animeInfo?.title} Poster`}
           className="absolute inset-0 w-full h-full object-cover filter grayscale z-[-900]"
